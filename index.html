@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Yummy</title>
+    <!-- <==========meta-tages=======> -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Daniels is a responsive creative template" />
+    <meta name="keywords" content="portfolio, personal, corporate, business, parallax, creative, agency" />
+    <!-- <==========stylesheet=======> -->
+    <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icons/Css/all.min.css">
+    <link rel="stylesheet" href="icons/webfonts/fa-v4compatibility.woff2">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/index-style.css">
+    <!-- <==========script=======> -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="side-nav-menu z-3 min-vh-100 position-fixed d-flex top-0">
+        <div class="nav-tab d-flex flex-column justify-content-between min-vh-100 bg-black p-4">
+            <div class="links text-white">
+                <ul class="list-unstyled overflow-hidden">
+                    <li onclick="showSearchInputs()" class="py-2 position-relative cursor-pointer">Search</li>
+                    <li onclick="get_Categories()" class="py-2 position-relative cursor-pointer">Categories</li>
+                    <li onclick="getArea()" class="py-2 position-relative cursor-pointer">Area</li>
+                    <li onclick="getIngredients()" class="py-2 position-relative cursor-pointer">Ingredients</li>
+                    <li onclick="showContacts()" class="py-2 position-relative cursor-pointer">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer text-white">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="footer">
+                    <p>Copyright © 2019 All Rights <br>Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+            <img class="logo" src="media/logo.png" alt="" srcset="">
+            <i class="fa-solid open-close-icon fa-align-justify fa-2x"></i>
+            <i class="fa-solid fa-xmark fa-align-justify fa-2x"></i>
+            <div>
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-75" id="searchContainer"> </div>
+
+    <div >
+        <div class="container">
+            <div class="row py-5 g-4" id="R_data">
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+    </div </div>
+    <div class="logding_spin"><span class="loader"></span></div>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"> </script>
+    <script src="js/index.js"> </script>
+</body>
+
+</html>
